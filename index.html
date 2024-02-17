@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Dog Companion</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, rgb(212, 208, 167), rgb(234, 224, 211));
+            font-family: Georgia;
+            line-height: 30px;
+        }
+
+        h1 {
+            color: rgb(48, 36, 28);
+            font-size: 48px;
+            font-weight: 200;
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+            padding-top: 20px
+        }
+
+        h2 {
+            font-size: 35px;
+            color: rgb(48, 36, 28);
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        p {
+            font-size: 20px;
+            color: rgb(48, 36, 28);
+            font-weight: normal;
+            text-align: center;
+            display: block;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+
+        ol {
+            font-family: Georgia;
+            line-height: 30px;
+        }
+
+        a {
+            font-weight: bold;
+            font-size: 25px;
+            text-decoration: underline;
+            color: rgb(93, 100, 61);
+        }
+
+        button {
+            padding: 17px 17px 17px 17px;
+            margin: 30px auto;
+            display: block;
+            color: rgb(93, 100, 61);
+            background-color: rgb(240, 237, 232);
+            font-size: 17px;
+            box-shadow: 3px 3px 5px grey;
+            border-radius: 0px;
+            border: solid 3px;
+            border-color: rgb(93, 100, 61);
+            transition: all 200ms ease-in-out;
+            font-family: monospace;
+        }
+
+        button:hover {
+            color: rgb(240, 237, 232);
+            background-color: rgb(93, 100, 61);
+            cursor: pointer;
+        }
+
+        div {
+            text-align: center;
+            display: block;
+        }
+
+        span {
+            color: rgb(93, 100, 61);
+            font-weight: bold;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>
+        Pawsome Pals: Your Ultimate Dog Companion
+    </h1>
+    <img src="https://www.hindustantimes.com/ht-img/img/2023/08/25/1600x900/international_dog_day_1692974397743_1692974414085.jpg"
+        width="600">
+    <h2>
+        <em></em>What do you know - The TailWaggers!
+    </h2>
+    <p>
+        "Dogs have been cherished companions to humans for millennia, <strong>known for their loyalty, energy, and
+            emotional
+            intelligence.</strong> This enduring bond extends beyond mere ownership, with dogs serving as trusted
+        friends and partners in
+        various aspects of human life. From their roles as faithful pets to their contributions in areas such as
+        assistance and
+        rescue, dogs play diverse and meaningful roles in our lives. Through this web app, we invite users to explore
+        and
+        celebrate the special relationship between humans and dogs, discovering the joy and enrichment that comes from
+        welcoming
+        a canine friend into one's life."
+    </p>
+    <ol>
+        <li>
+            <a href="https://dogtime.com/dog-breeds/characteristics" target="_blank">Breed characteristics</a>
+            <p>
+                Different dog breeds have unique characteristics in terms of size, temperament, energy level, and
+                grooming needs.
+                Understanding these traits can help individuals choose a breed that matches their lifestyle and
+                preferences
+            </p>
+        </li>
+        <li>
+            <a href="https://www.pawschicago.org/news-resources/all-about-dogs/doggy-basics/a-dogs-basic-needs"
+                target="_blank">Basic Care Needs</a>
+            <p>
+                Dogs require proper nutrition, regular exercise, grooming, and veterinary care to thrive. Providing a
+                balanced diet,
+                daily exercise, regular grooming sessions, and routine veterinary check-ups are essential for their
+                health and
+                well-being.
+            </p>
+        </li>
+        <p>
+            <li>
+                <a href="https://www.thesprucepets.com/dogs-health-4162140" target="_blank">Health And Wellness</a>
+            </li>
+        <p>
+            Recognizing signs of illness, preventive care, and understanding common health issues in dogs are essential
+            for
+            maintaining their overall health and well-being. Regular vaccinations, parasite control, dental care, and
+            monitoring for
+            signs of illness or injury are important aspects of dog health care.
+        </p>
+        </p>
+        <li>
+
+        </li><a href="http://https://www.akc.org/expert-advice/advice/how-to-read-dog-body-language/" target="_blank">
+            Body Language</a>
+        <p>
+            Understanding dog behavior and communication cues can help individuals better understand and bond with their
+            canine
+            companions. Recognizing signs of stress, fear, and aggression, as well as understanding body language and
+            vocalizations,
+            can enhance communication and prevent misunderstandings.
+        </p>
+    </ol>
+    <img src="https://media.istockphoto.com/id/824148054/photo/labrador-puppy-7-weeks-old-in-front-of-white-background.jpg?s=612x612&w=0&k=20&c=OKTDA2l0tWBemheDrmmev8CNREsIz1j74mhCV1IW0vw="
+        width="400">
+    <button>
+        Buy A Dog
+    </button>
+    <hr>
+    <div>
+        Made By Bernice Kumah while petting a puppy 🐕
+    </div>
+    <div>
+        <span>Email:</span> bkumah51@gmail.com <span>Instagram:</span> Efya1235
+    </div>
+
+</body>
+<script>
+    function button() {
+        let name = prompt("What's your name?");
+        let tried = prompt("Do you own a dog🐶?").toLowerCase().trim();
+        if (tried === "yes") {
+            alert(name + ", Great! Take Good Care Of It");
+        } else {
+            alert(
+                "Oh really, " +
+                name +
+                "! You Should Get One😌🙏"
+            );
+        }
+    }
+    let Button = document.querySelector("button");
+    Button.addEventListener("click", Button);
+</script>
+</html>
