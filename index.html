@@ -111,7 +111,7 @@
         header {
             justify-content: center;
             align-items: center;
-            background-color: aliceblue;
+            background-color: black;
             color: black;
             position: fixed;
             top: 0;
@@ -137,10 +137,20 @@
         }
 
         nav ul li a {
-            color: black;
+            color: whitesmoke;
             text-decoration: none;
             font-size: medium;
         }
+        div.logo {
+            position: fixed;
+            top: -20px;
+            left: 0px;
+        }
+        .logo img {
+            width: 100px;
+            height: auto;
+        }
+    
     </style>
 </head>
 
@@ -149,16 +159,22 @@
         <nav class="nav">
             <ul>
                 <li><a href="#">🏡Home</a></li>
+                <li><a href="#">Dog Names</a></li>
+                <li><a href="#">🐶Adopt a Dog</a></li>
+                <li><a href="#">Dog breeds</a></li>
                 <li><a href="#">📲Contact</a></li>
                 <li><a href="#">🩸Venue</a></li>
             </ul>
         </nav>
     </header>
     <section class="container">
-        <img src="" alt="">
-        <p></p>
+
+        <div class="logo">
+        <img src="image/PawsomePalsLogo.png" alt="my logo">
+        </div>
+
         <h1>
-            Pawsome Pals: Your Ultimate Dog Companion
+            Pawsome Pals - Your Ultimate Dog Companion
         </h1>
 
         <img src="https://www.hindustantimes.com/ht-img/img/2023/08/25/1600x900/international_dog_day_1692974397743_1692974414085.jpg"
@@ -248,31 +264,19 @@
         <div>
             <span>Email:</span> bkumah51@gmail.com <span>Instagram:</span> Efya1235
             <br>
-            <span>
+            <div>
                 <em>
-                    Location🔻: Pawstreet - Spintex Ghana
+                   <span>Location🔻:</span> Pawstreet - Spintex Ghana
                 </em>
-            </span>
+            </div>
         </div>
     </footer>
 
 </body>
 <script>
-    function button() {
-        let name = prompt("What's your name?");
-        let tried = prompt("Do you own a dog🐶?").toLowerCase().trim();
-        if (tried === "yes") {
-            alert(name + ", Great! Take Good Care Of It");
-        } else {
-            alert(
-                "Oh really, " +
-                name +
-                "! You Should Get One😌🙏"
-            );
-        }
-    }
-    let Button = document.querySelector("button");
-    Button.addEventListener("click", Button);
+        let firstname = prompt("What is your name");
+        alert(firstname + " Welcome and Enjoy Pawsome pals!");
+
 </script>
 
 </html>
